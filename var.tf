@@ -37,7 +37,7 @@ variable "tags" {
   description = "Tag to apply to the instance"
   type        = map(string)
   default = {
-    "Name"    = "Good"
+    "Name"    = "bed"
     "env"     = "dev"
     "owner"   = "kamarafamily"
     "project" = "learning"
