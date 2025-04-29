@@ -18,7 +18,7 @@ locals {
   security_group     = "default"
 
   tags = {
-    "Name"    = "amadu"
+    "Name"    = "sesay"
     "env"     = "dev"
     "owner"   = "musa"
     "project" = "practicing"
