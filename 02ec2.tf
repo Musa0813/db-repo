@@ -1,8 +1,6 @@
-resource "aws_instance" "QA" {
-    ami = "ami-0c55b159cbfafe1f0"
-    instance_type = "t2.micro"
-    tags = {
-        Name = "QA"
-    }
+resource "aws_instance" "Qt" {
+    ami = var.instance_type
+    instance_type = var.instance_type
+    tags = var.tags
   
 }
